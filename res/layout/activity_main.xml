@@ -1,0 +1,128 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:keepScreenOn = "true"
+    android:id="@+id/mainLayout"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:id="@+id/imageLayout"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fondoroomba" />
+
+    </LinearLayout>
+    
+
+    <LinearLayout
+        android:id="@+id/ButtonsLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@id/imageLayout"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/buttonConnect"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:background="@drawable/button"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="Connect"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/buttonStart"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:background="@drawable/button"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="Start"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/buttonSlow"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:background="@drawable/button"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="Slow"
+            android:textColor="#ffffff" />
+        
+        
+    </LinearLayout>    
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignRight="@id/imageLayout"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/buttonClean"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:background="@drawable/button"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="Clean"
+            android:textColor="#ffffff" />
+        
+        <Button
+            android:id="@+id/buttonSpot"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:background="@drawable/button"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="Spot"
+            android:textColor="#ffffff" />
+        
+        <Button
+            android:id="@+id/buttonDock"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:background="@drawable/button"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="Dock"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/imageLayout"
+        android:layout_centerHorizontal="true"
+        android:text="pacosal.com"
+        android:textColor="#ffffff"
+        android:textSize="12sp" />
+    
+</RelativeLayout>

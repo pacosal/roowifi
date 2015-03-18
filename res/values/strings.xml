@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Roomba Wifi</string>
+    <string name="menu_settings">Settings</string>
+    <string name="Debug">Debug Mode</string>
+    <string name="Ip">Enter Roomba IP</string>
+    <string name="UnaVez">Go settings and set the Roomba IP in order to control it!\n\nPress Connect Button and Start Button to enable or disable Accelerometer to drive Roomba.</string>    
+    	
+</resources>
